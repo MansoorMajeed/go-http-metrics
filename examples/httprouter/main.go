@@ -8,10 +8,10 @@ import (
 	"syscall"
 
 	"github.com/julienschmidt/httprouter"
+	metrics "github.com/mansoormajeed/go-http-metrics/metrics/prometheus"
+	"github.com/mansoormajeed/go-http-metrics/middleware"
+	httproutermiddleware "github.com/mansoormajeed/go-http-metrics/middleware/httprouter"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	metrics "github.com/slok/go-http-metrics/metrics/prometheus"
-	"github.com/slok/go-http-metrics/middleware"
-	httproutermiddleware "github.com/slok/go-http-metrics/middleware/httprouter"
 )
 
 const (

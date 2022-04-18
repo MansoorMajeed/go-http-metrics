@@ -7,10 +7,10 @@ import (
 	"os/signal"
 	"syscall"
 
+	metrics "github.com/mansoormajeed/go-http-metrics/metrics/prometheus"
+	"github.com/mansoormajeed/go-http-metrics/middleware"
+	gojimiddleware "github.com/mansoormajeed/go-http-metrics/middleware/goji"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	metrics "github.com/slok/go-http-metrics/metrics/prometheus"
-	"github.com/slok/go-http-metrics/middleware"
-	gojimiddleware "github.com/slok/go-http-metrics/middleware/goji"
 	"goji.io"
 	"goji.io/pat"
 )

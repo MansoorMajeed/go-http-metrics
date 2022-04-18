@@ -5,7 +5,7 @@ import (
 	"context"
 
 	"github.com/labstack/echo/v4"
-	"github.com/slok/go-http-metrics/middleware"
+	"github.com/mansoormajeed/go-http-metrics/middleware"
 )
 
 // Handler returns a Echo measuring middleware.

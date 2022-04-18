@@ -4,7 +4,7 @@ package fasthttp
 import (
 	"context"
 
-	"github.com/slok/go-http-metrics/middleware"
+	"github.com/mansoormajeed/go-http-metrics/middleware"
 	"github.com/valyala/fasthttp"
 )
 
