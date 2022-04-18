@@ -8,10 +8,10 @@ import (
 	"os/signal"
 	"syscall"
 
+	metrics "github.com/mansoormajeed/go-http-metrics/metrics/prometheus"
+	"github.com/mansoormajeed/go-http-metrics/middleware"
+	negronimiddleware "github.com/mansoormajeed/go-http-metrics/middleware/negroni"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	metrics "github.com/slok/go-http-metrics/metrics/prometheus"
-	"github.com/slok/go-http-metrics/middleware"
-	negronimiddleware "github.com/slok/go-http-metrics/middleware/negroni"
 	"github.com/urfave/negroni"
 )
 

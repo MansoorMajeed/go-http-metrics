@@ -9,11 +9,11 @@ import (
 	"time"
 
 	ocprometheus "contrib.go.opencensus.io/exporter/prometheus"
-	ocmmetrics "github.com/slok/go-http-metrics/metrics/opencensus"
+	ocmmetrics "github.com/mansoormajeed/go-http-metrics/metrics/opencensus"
 	"go.opencensus.io/stats/view"
 
-	"github.com/slok/go-http-metrics/middleware"
-	"github.com/slok/go-http-metrics/middleware/std"
+	"github.com/mansoormajeed/go-http-metrics/middleware"
+	"github.com/mansoormajeed/go-http-metrics/middleware/std"
 )
 
 const (

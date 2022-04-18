@@ -7,10 +7,10 @@ import (
 	"net/http"
 
 	"github.com/fasthttp/router"
+	promMetrics "github.com/mansoormajeed/go-http-metrics/metrics/prometheus"
+	"github.com/mansoormajeed/go-http-metrics/middleware"
+	fasthttpMiddleware "github.com/mansoormajeed/go-http-metrics/middleware/fasthttp"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	promMetrics "github.com/slok/go-http-metrics/metrics/prometheus"
-	"github.com/slok/go-http-metrics/middleware"
-	fasthttpMiddleware "github.com/slok/go-http-metrics/middleware/fasthttp"
 	"github.com/valyala/fasthttp"
 )
 
