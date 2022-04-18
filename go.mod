@@ -17,9 +17,6 @@ require (
 	github.com/valyala/fasthttp v1.33.0
 	go.opencensus.io v0.23.0
 	goji.io v2.0.2+incompatible
-)
-
-require (
 	github.com/BurntSushi/toml v0.4.1 // indirect
 	github.com/CloudyKit/fastprinter v0.0.0-20200109182630-33d98a066a53 // indirect
 	github.com/CloudyKit/jet/v6 v6.1.0 // indirect
